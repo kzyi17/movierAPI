@@ -1,0 +1,246 @@
+[ 2016-03-09T12:57:34+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013146s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:00:18+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:00:41+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:05:38+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:13:35+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:15:54+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:18:16+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: files D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: files1 D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 23 行.
+NOTIC: [2] file_put_contents(D:\Develop\WWW\movier\api\Application\Api\Controller/uploads/1457500696.jpg): failed to open stream: No such file or directory D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 28 行.
+
+[ 2016-03-09T13:19:29+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: files D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: files1 D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 23 行.
+
+[ 2016-03-09T13:20:53+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: files1 D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 23 行.
+
+[ 2016-03-09T13:24:45+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 154 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 154 行.
+NOTIC: [8] Undefined index: files D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: files1 D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0828s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('','','','','','0','31','1457501085') [ RunTime:0.1191s ]
+
+[ 2016-03-09T13:26:29+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:46:53+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T13:48:42+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T14:32:40+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2] : failed to open stream: Invalid argument D:\Develop\WWW\movier\api\Application\Api\Controller\PublishController.class.php 第 30 行.
+
+[ 2016-03-09T14:41:10+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T14:45:24+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-03-09T16:15:56+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0252s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('作品测试','哈哈','','123','','0','31','1457511356') [ RunTime:0.0732s ]
+NOTIC: [2] file_put_contents(D:/Develop/WWW/movier/statics//uploads/1457511356.jpeg): failed to open stream: No such file or directory D:\Develop\WWW\movier\api\Application\Api\Model\WorksModel.class.php 第 72 行.
+NOTIC: [2] file_put_contents(D:/Develop/WWW/movier/statics//uploads/1457511356.jpeg): failed to open stream: No such file or directory D:\Develop\WWW\movier\api\Application\Api\Model\WorksModel.class.php 第 72 行.
+NOTIC: [2] file_put_contents(D:/Develop/WWW/movier/statics//uploads/1457511356.jpeg): failed to open stream: No such file or directory D:\Develop\WWW\movier\api\Application\Api\Model\WorksModel.class.php 第 72 行.
+
+[ 2016-03-09T16:18:24+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:1.6962s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('测试','体育课','','','','0','31','1457511504') [ RunTime:0.1674s ]
+
+[ 2016-03-09T16:21:08+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.6969s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('','','','','','0','31','1457511668') [ RunTime:0.0825s ]
+
+[ 2016-03-09T16:22:26+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0036s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('','','','','','0','31','1457511746') [ RunTime:0.0753s ]
+
+[ 2016-03-09T16:25:41+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.3214s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('哈哈','么电了','','','','0','31','1457511941') [ RunTime:0.0519s ]
+
+[ 2016-03-09T16:27:01+08:00 ] 192.168.1.100 /movier/api/Publish/works?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `works` [ RunTime:0.0037s ]
+SQL: INSERT INTO `works` (`title`,`description`,`style`,`cost`,`unit`,`from`,`user_id`,`create_time`) VALUES ('龙年','现在只有','','','','0','31','1457512019') [ RunTime:1.7453s ]
+

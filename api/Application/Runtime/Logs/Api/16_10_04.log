@@ -1,0 +1,12 @@
+[ 2016-10-04T13:26:59+08:00 ] 192.168.1.7 /movier/api/User/login?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `users` WHERE `mobile` = '18620081053' LIMIT 1   [ RunTime:0.0262s ]
+

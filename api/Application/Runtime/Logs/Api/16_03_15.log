@@ -1,0 +1,43 @@
+[ 2016-03-15T03:07:40+08:00 ] 192.168.1.4 /movier/api/Publish/event?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024199s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0111s ]
+SQL: INSERT INTO `event` (`title`,`description`,`from`,`event_time`,`attribute`,`location`,`preference_sex`,`preference_member`,`preference_job`,`contact`,`user_id`,`create_time`) VALUES ('活动测试','活动详情','1','1457981880','1','蟹山302','1','4','6','18620081053','31','1457982460') [ RunTime:0.1034s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0115s ]
+SQL: INSERT INTO `photos` (`photo_name`,`photo_folder`,`photo_type`,`user_id`,`source_type`,`source_id`,`create_time`) VALUES ('56e70bfcb3354','event/2016-03-15/','jpeg','31','event','1','1457982460') [ RunTime:0.0596s ]
+SQL: INSERT INTO `photos` (`photo_name`,`photo_folder`,`photo_type`,`user_id`,`source_type`,`source_id`,`create_time`) VALUES ('56e70bfcc3b3f','event/2016-03-15/','jpeg','31','event','1','1457982460') [ RunTime:0.0459s ]
+
+[ 2016-03-15T03:24:32+08:00 ] 192.168.1.4 /movier/api/Publish/demand?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `demand` [ RunTime:0.0225s ]
+ERR: Think\Model:addDemand方法不存在！
+
+[ 2016-03-15T03:25:20+08:00 ] 192.168.1.4 /movier/api/Publish/demand?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `demand` [ RunTime:0.0053s ]
+SQL: INSERT INTO `demand` (`title`,`description`,`contact`,`from`,`user_id`,`create_time`) VALUES ('需求测试','需求描述','18620081053','2','31','1457983520') [ RunTime:0.0976s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0097s ]
+SQL: INSERT INTO `photos` (`photo_name`,`photo_folder`,`photo_type`,`user_id`,`source_type`,`source_id`,`create_time`) VALUES ('56e7102051d9a','demand/2016-03-15/','jpeg','31','demand','1','1457983520') [ RunTime:0.0387s ]
+SQL: INSERT INTO `photos` (`photo_name`,`photo_folder`,`photo_type`,`user_id`,`source_type`,`source_id`,`create_time`) VALUES ('56e710205c5ea','demand/2016-03-15/','jpeg','31','demand','1','1457983520') [ RunTime:0.0702s ]
+SQL: INSERT INTO `photos` (`photo_name`,`photo_folder`,`photo_type`,`user_id`,`source_type`,`source_id`,`create_time`) VALUES ('56e710206e5dc','demand/2016-03-15/','jpeg','31','demand','1','1457983520') [ RunTime:0.0868s ]
+

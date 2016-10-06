@@ -1,0 +1,87 @@
+[ 2016-03-03T23:50:06+08:00 ] 192.168.1.108 /movier/api/User/userinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013346s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0967s ]
+SQL: SELECT * FROM `users` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-03-03T23:50:29+08:00 ] 192.168.1.108 /movier/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0188s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\movier\api\Application\Common\Common\function.php 第 161 行.
+SQL: INSERT INTO `smscode` (`code`,`request_time`,`mobile`) VALUES ('1294','1457020229','18620081053') [ RunTime:0.0514s ]
+
+[ 2016-03-03T23:50:41+08:00 ] 192.168.1.108 /movier/api/User/register?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `users` WHERE `username` = '18620081053' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-03T23:50:53+08:00 ] 192.168.1.108 /movier/api/User/login?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `users` WHERE `mobile` = '18620081053' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-03T23:51:05+08:00 ] 192.168.1.108 /movier/api/User/userinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `users` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-03T23:51:30+08:00 ] 192.168.1.108 /movier/api/user/updateinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0039s ]
+SQL: UPDATE `users` SET `nickname`='镇镇',`sex`='0' WHERE ( user_id=29 ) [ RunTime:0.3616s ]
+SQL: SELECT * FROM `users` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-03T23:51:33+08:00 ] 192.168.1.108 /movier/api/User/userinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `users` WHERE ( user_id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+

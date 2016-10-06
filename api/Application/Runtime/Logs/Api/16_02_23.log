@@ -1,0 +1,929 @@
+[ 2016-02-23T13:01:20+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013093s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-02-23T13:03:07+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-02-23T13:03:18+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-02-23T13:06:26+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+
+[ 2016-02-23T13:07:00+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0102s ]
+
+[ 2016-02-23T13:10:53+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: mobiles D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 20 行.
+
+[ 2016-02-23T13:12:23+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:1.6664s ]
+NOTIC: [8] Undefined index: mobiles D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 20 行.
+
+[ 2016-02-23T13:12:34+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0053s ]
+
+[ 2016-02-23T13:16:12+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0063s ]
+
+[ 2016-02-23T13:16:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0048s ]
+
+[ 2016-02-23T13:16:27+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0073s ]
+
+[ 2016-02-23T13:16:38+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0046s ]
+
+[ 2016-02-23T13:16:46+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0062s ]
+
+[ 2016-02-23T13:16:53+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0047s ]
+
+[ 2016-02-23T14:11:21+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T14:11:38+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T14:29:07+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T14:29:24+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-02-23T14:52:10+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-02-23T14:52:12+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-02-23T14:52:13+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T14:52:25+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-23T14:52:37+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T14:53:54+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-23T14:55:29+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T15:01:16+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-23T15:26:13+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-23T15:26:55+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:26:57+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:26:58+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:26:58+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:26:59+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:27:00+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:27:01+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:41:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:43:27+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:49:14+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T15:58:39+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 30 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 55 行.
+
+[ 2016-02-23T15:58:58+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 31 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 56 行.
+
+[ 2016-02-23T16:00:12+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 30 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 55 行.
+NOTIC: [8] Undefined variable: tempId D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 75 行.
+
+[ 2016-02-23T16:00:43+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 30 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 55 行.
+NOTIC: [8] Undefined variable: tempId D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 75 行.
+
+[ 2016-02-23T16:01:27+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 30 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 55 行.
+NOTIC: [8] Undefined variable: tempId D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 75 行.
+
+[ 2016-02-23T16:02:57+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+NOTIC: [2] Missing argument 3 for Api\Model\SmscodeModel::sendSms(), called in D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php on line 30 and defined D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 55 行.
+NOTIC: [8] Undefined variable: tempId D:\Develop\WWW\mlbspa\api\Application\Api\Model\SmscodeModel.class.php 第 75 行.
+
+[ 2016-02-23T16:03:39+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:04:10+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:10:12+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:27:29+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:28:07+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:28:36+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:29:06+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-02-23T16:29:07+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-02-23T16:29:26+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=13005568800 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:29:42+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18578623828 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:29:51+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-02-23T16:32:03+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:32:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:32:36+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:33:49+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+
+[ 2016-02-23T16:48:39+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+SQL: UPDATE `smscode` SET `code`='7476',`time`='1456217319' WHERE `mobile` = '18620081053' [ RunTime:0.1226s ]
+
+[ 2016-02-23T16:52:06+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+SQL: UPDATE `smscode` SET `code`='9472',`time`='1456217526' WHERE `mobile` = '18620081053' [ RunTime:0.1038s ]
+
+[ 2016-02-23T16:52:50+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:52:52+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T16:52:53+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:12+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:14+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T16:53:15+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T16:53:16+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:16+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-02-23T16:53:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-02-23T16:53:17+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T16:54:09+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\mlbspa\api\Application\Common\Common\function.php 第 161 行.
+SQL: UPDATE `smscode` SET `code`='7276',`time`='1456217648' WHERE `mobile` = '18620081053' [ RunTime:1.5554s ]
+
+[ 2016-02-23T16:54:27+08:00 ] 127.0.0.1 /mlbspa/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-23T22:14:34+08:00 ] 192.168.1.5 /mlbspa/api/User/getmyinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.041021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041302s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `members` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `members` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0855s ]
+

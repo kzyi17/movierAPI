@@ -1,0 +1,14 @@
+[ 2016-02-27T23:17:31+08:00 ] 192.168.1.108 /movier/api/public/getsmscode?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `smscode` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `smscode` WHERE ( mobile=18620081053 ) LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: rand D:\Develop\WWW\movier\api\Application\Common\Common\function.php 第 161 行.
+SQL: INSERT INTO `smscode` (`code`,`mobile`) VALUES ('1816','18620081053') [ RunTime:0.0707s ]
+

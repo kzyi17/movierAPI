@@ -1,0 +1,98 @@
+[ 2016-02-22T16:33:50+08:00 ] 192.168.1.5 /mlbspa/api/spa/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012127s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: city_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 29 行.
+NOTIC: [8] Undefined index: cate_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 33 行.
+NOTIC: [8] Undefined index: sort D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0939s ]
+SQL: SELECT spa.*,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN images on images.img_id = spa.spa_cover  WHERE `order_type` = 1 ORDER BY `spa_id` desc LIMIT 0,10   [ RunTime:0.1305s ]
+
+[ 2016-02-22T16:34:31+08:00 ] 192.168.1.5 /mlbspa/api/spa/getgallery?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `spa_gallery` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `spa_gallery` LEFT JOIN images on images.img_id = spa_gallery.img_id  WHERE ( spa_id=7 )  [ RunTime:0.0004s ]
+
+[ 2016-02-22T16:34:31+08:00 ] 192.168.1.5 /mlbspa/api/spa/getinfo?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0065s ]
+SQL: SELECT spa.*,merchant.merchant_name,merchant.address,merchant.phone,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN merchant on merchant.merchant_id = spa.merchant_id LEFT JOIN images on images.img_id = spa.spa_cover  WHERE ( spa_id=7 ) LIMIT 1   [ RunTime:0.0593s ]
+
+[ 2016-02-22T16:34:43+08:00 ] 192.168.1.5 /mlbspa/api/spa/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: city_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 29 行.
+NOTIC: [8] Undefined index: cate_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 33 行.
+NOTIC: [8] Undefined index: sort D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0043s ]
+SQL: SELECT spa.*,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN images on images.img_id = spa.spa_cover  WHERE `order_type` = 1 ORDER BY `spa_id` desc LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2016-02-22T16:35:31+08:00 ] 192.168.1.5 /mlbspa/api/spa/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: city_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 29 行.
+NOTIC: [8] Undefined index: cate_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 33 行.
+NOTIC: [8] Undefined index: sort D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0046s ]
+SQL: SELECT spa.*,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN images on images.img_id = spa.spa_cover  WHERE `order_type` = 1 ORDER BY `spa_id` desc LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2016-02-22T16:41:43+08:00 ] 192.168.1.5 /mlbspa/api/spa/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: cate_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 33 行.
+NOTIC: [8] Undefined index: sort D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0061s ]
+SQL: SELECT spa.*,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN images on images.img_id = spa.spa_cover  WHERE `city_id` = '1' AND `order_type` = 1 ORDER BY `spa_id` desc LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-02-22T16:44:58+08:00 ] 192.168.1.5 /mlbspa/api/spa/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\mlbspa\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [8] Undefined index: cate_id D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 33 行.
+NOTIC: [8] Undefined index: sort D:\Develop\WWW\mlbspa\api\Application\Api\Controller\SpaController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `spa` [ RunTime:0.0042s ]
+SQL: SELECT spa.*,images.folder as cover_folder,images.name as cover_name,images.type as cover_type FROM `spa` LEFT JOIN images on images.img_id = spa.spa_cover  WHERE `city_id` = '12' AND `order_type` = 1 ORDER BY `spa_id` desc LIMIT 0,10   [ RunTime:0.0005s ]
+

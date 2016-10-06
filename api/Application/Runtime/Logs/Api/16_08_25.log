@@ -1,0 +1,358 @@
+[ 2016-08-25T02:35:23+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0058s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T03:29:43+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:1.8971s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0056s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T03:53:33+08:00 ] 192.168.1.7 /movier/api/User/login?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `users` WHERE `mobile` = '18620081053' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-25T05:35:07+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0062s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:36:18+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:1.7728s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' AND `severtype` = '2' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0057s ]
+
+[ 2016-08-25T05:36:25+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' AND `severtype` = '0' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0053s ]
+
+[ 2016-08-25T05:36:29+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' AND `style` = '0' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0054s ]
+
+[ 2016-08-25T05:36:42+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0066s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=11 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=10 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=6 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=5 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=4 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=3 ) LIMIT 6   [ RunTime:0.0002s ]
+
+[ 2016-08-25T05:36:52+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' AND `severtype` = '1' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0066s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=11 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=5 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=4 ) LIMIT 6   [ RunTime:0.0003s ]
+
+[ 2016-08-25T05:37:00+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' AND `severtype` = '2' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0055s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=10 ) LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=6 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:37:11+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' AND `severtype` = '0' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0072s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=3 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:37:25+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0405s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' AND `severtype` = '1' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0071s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=11 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=5 ) LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=4 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:37:31+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' AND `severtype` = '1' ORDER BY publish_id desc LIMIT 6,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0062s ]
+
+[ 2016-08-25T05:39:17+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0062s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0003s ]
+
+[ 2016-08-25T05:40:38+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0072s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0003s ]
+
+[ 2016-08-25T05:41:40+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'event' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0080s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=9 ) LIMIT 6   [ RunTime:0.0005s ]
+
+[ 2016-08-25T05:42:17+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0062s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0003s ]
+
+[ 2016-08-25T05:43:47+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0066s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0003s ]
+
+[ 2016-08-25T05:46:26+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.3292s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0060s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:46:29+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0059s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0004s ]
+
+[ 2016-08-25T05:46:35+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0058s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=11 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=10 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=6 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=5 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=4 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=3 ) LIMIT 6   [ RunTime:0.0002s ]
+
+[ 2016-08-25T05:47:28+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'works' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0064s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=11 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=10 ) LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=6 ) LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=5 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=4 ) LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=3 ) LIMIT 6   [ RunTime:0.0002s ]
+
+[ 2016-08-25T05:49:30+08:00 ] 192.168.1.7 /movier/api/Publish/getlist?token=asdqwe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [2048] Declaration of Api\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+NOTIC: [2048] Declaration of Api\Controller\CommonController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\Develop\WWW\movier\api\Application\Api\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `publish` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: sortrule D:\Develop\WWW\movier\api\Application\Api\Model\PublishModel.class.php 第 107 行.
+SQL: SELECT publish.*,users.nickname,users.sex,users.headpic,users.start,'http://172.20.10.2/movier/statics/uploads/' as _url FROM `publish` LEFT JOIN users on users.user_id =publish.user_id  WHERE `publishtype` = 'demand' ORDER BY publish_id desc LIMIT 0,6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photos` [ RunTime:0.0858s ]
+SQL: SELECT `photo_folder`,`photo_name`,`photo_type` FROM `photos` WHERE ( source_id=8 ) LIMIT 6   [ RunTime:0.0006s ]
+
