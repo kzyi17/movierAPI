@@ -27,9 +27,16 @@ class AMapApiModel{
         $data = HttpCurl::get($url);
         $data = json_decode($data,true);
         
-        return $data;
+        //判断
+        if(1==$data['status']){
+        	return $data['datas'];
+        }else{
+        	//log
+            \Think\Log::record('Amap_API调用错误：【incode:'.$data['infocode'].';info:'.$data['info'].'】');
+            
+            return false;
+        }
         
-
     }
     
     /**

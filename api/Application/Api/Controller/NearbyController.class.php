@@ -29,8 +29,19 @@ class NearbyController extends CommonController {
         $mapParams['limit'] = $param['limit'];
         $mapParams['page'] = $param['page'];
         
+        //调用地图接口获取数据
         $data = D('AMapApi')->searchAroundUser($mapParams);
-        $this->jsonReturn($data);
+        
+        $return = array();
+        //匹配数据
+        foreach($data as $k=>$v){
+        	$userInfo = D('Users')->getUserInfo(array('user_id'=>$v['userid']));
+        	$userInfo['distance'] = $v['_distance'];
+        	$userInfo['location'] = $v['_location'];
+        	$return[]=$userInfo;
+        }
+        
+        $this->jsonReturn($return);
     }
     
     /**
