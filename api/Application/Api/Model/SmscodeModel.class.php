@@ -45,7 +45,8 @@ class SmscodeModel extends Model{
 	           $this->add($saveData);
 	       }
 	       
-	       return $saveData;
+	       return array('success'=>'短信验证码已成功发送');
+//	       return $saveData;
 	        
 	    }else{
 	        return array('errcode'=>2001,'errmsg'=>'手机号码不正确，请重新输入');

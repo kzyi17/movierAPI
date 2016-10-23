@@ -10,6 +10,21 @@ namespace Api\Controller;
 class UserController extends CommonController {
     
     /**
+     * 获取注册短信验证码
+     * 
+     * @author kezhen.yi                  
+     * @date 2016年2月23日 下午12:59:16        
+     *
+     */
+    public function regSmsCode(){
+        //检查参数
+        $this->checkParam('mobile',true);
+        
+        $data = D('Users')->getRegSmsCode($this->params);
+        $this->jsonReturn($data);
+    }
+    
+    /**
      * 用户注册
      *
      * @author kezhen.yi

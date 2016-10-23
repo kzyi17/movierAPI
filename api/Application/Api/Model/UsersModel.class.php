@@ -11,6 +11,22 @@ use Think\Model;
 class UsersModel extends Model{
     
     /**
+	 * 获取注册短信验证码
+	 * 
+	 * @author kezhen.yi                  
+	 * @date 2016年2月23日 下午1:05:13        
+	 *
+	 */
+	public function getRegSmsCode($param){
+	    //检查账号是否注册
+        if($this->_checkMobile($param['mobile'])){
+            return array('errcode'=>2002,'errmsg'=>'该手机号码已被注册');
+        }else{
+        	return D('Smscode')->getCode($param);
+        }
+	}
+    
+    /**
      * 用户登录
      * 
      * @author kezhen.yi                  
@@ -31,6 +47,18 @@ class UsersModel extends Model{
     }
     
     /**
+     * 检查手机号是否已注册会员
+     * 
+     */
+    private function _checkMobile($mobile){
+        if($this->where("mobile=$mobile")->find()){
+            return true;
+        }else{
+        	return false;
+        }
+    }
+    
+    /**
      * 用户注册
      *  --密码默认为手机号码
      * @author kezhen.yi
@@ -43,8 +71,7 @@ class UsersModel extends Model{
         }
     
         //检查账号是否注册
-        $user = $this->where(array('username'=>$param['mobile']))->find();
-        if($user){
+        if($this->_checkMobile($param['mobile'])){
             return array('errcode'=>2002,'errmsg'=>'用户已存在,请重新注册');
         }
     
@@ -53,6 +80,9 @@ class UsersModel extends Model{
             return array('errcode'=>2002,'errmsg'=>'验证码错误或已过期，请重新输入');
         }
     
+    	$address = $param['userAddress'];
+    	$position = $param['userPosition'];
+    	
         $saveData = array(
             'username' => $param['mobile'],
             'mobile' => $param['mobile'],
@@ -65,7 +95,7 @@ class UsersModel extends Model{
             
             //创建地图数据
             $position = $param['userPosition'];
-            $location = $position['longitude'].','.$position['latitude'];
+            $location = $position['lng'].','.$position['lat'];
             $mapData = array('_name'=>$param['mobile'],'userid'=>$result,'_location'=>$location);
             $mapID = D('AMapApi')->createUser($mapData);
             if($mapID){
