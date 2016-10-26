@@ -25,6 +25,8 @@ class UsersModel extends Model{
         	return D('Smscode')->getCode($param);
         }
 	}
+	
+	
     
     /**
      * 用户登录
@@ -34,17 +36,42 @@ class UsersModel extends Model{
      *
      */
     public function login($param){
+        //$param['ip'] = get_client_ip();
+        //return array('errcode'=>5001,'errmsg'=>'TEST','test'=>$param);
         
         $user = $this->where(array('mobile'=>$param['mobile']))->find();
-        
         if(!$user || $user['password']!=encrypt($param['password'])){
             return array('errcode'=>5001,'errmsg'=>'用户或密码错误，请重新登录');
         }else{
-            unset($user['password']);//隐藏密码字段
-            return array('success'=>'登录成功','userInfo'=>$user);
+        	//取得invalid_token,并更新数据库里的token
+        	$timestamp = time();
+        	$invalid_token = encrypt($user['userid'].$user['password'].$timestamp);
+        	$this->_updateInvalidToken($invalid_token,$timestamp);
+        	
+        	//取得用户信息
+        	$userInfo = array(
+        		'nickname'=>$user['nickname'],
+        		'mobile'=>$user['mobile'],
+        		'userid'=>$user['userid'],
+        		/*''=>$user[''],
+        		''=>$user[''],*/
+        	);
+        	
+        	//更新用户定位
+        	
+        	
+            return array('success'=>'登录成功','userInfo'=>$userInfo,'invalid_token'=>$invalid_token);
         }
         
     }
+    
+    /**
+	 * 更新数据库里的invalid_token
+	 */
+	private function _updateInvalidToken($invalid_token,$timestamp){
+		$model = M('invalid_token');
+		
+	}
     
     /**
      * 检查手机号是否已注册会员
@@ -92,14 +119,13 @@ class UsersModel extends Model{
     
         $result = $this->add($saveData);
         if($result){
-            
             //创建地图数据
             $position = $param['userPosition'];
             $location = $position['lng'].','.$position['lat'];
             $mapData = array('_name'=>$param['mobile'],'userid'=>$result,'_location'=>$location);
             $mapID = D('AMapApi')->createUser($mapData);
             if($mapID){
-                $this->where("user_id=$result")->save(array('map_id'=>$mapID));
+                $this->where("user_id=$result")->setField('map_id',$mapID);
             }
             
             $userInfo = $this->getInfo($result);
