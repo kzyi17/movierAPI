@@ -69,23 +69,25 @@ class AMapApiModel{
      *
      * @author kezhen.yi
      */
-    public function updateUser($data){
+    public function updateUser($mapID,$data){
         
         $url = 'http://yuntuapi.amap.com/datamanage/data/update';
         $postdata = array();
         $postdata['key'] = C('amap_key');
         $postdata['tableid'] = C('amap_table_user');
-        $postdata['data'] = json_encode($data);
+        $mapData = array();
+        $mapData['_id'] = $mapID;
+        $postdata['data'] = json_encode(array_merge($mapData,$data));
         
         $data = HttpCurl::post($url,$postdata);
         $data = json_decode($data,true);
         
         if($data['status']==1){//成功返回创建的ID
-            return true;
+            return $data;
         }else{//错误处理
             //log
             \Think\Log::record('Amap_API调用错误：【incode:'.$data['infocode'].';info:'.$data['info'].'】');
-            return false;
+            return $data;
         }
     }
     

@@ -49,7 +49,7 @@ class UserController extends CommonController {
      */
     public function updateinfo(){
         //检查参数
-        $this->checkParam('user_id',true);
+        $this->checkParam('userid',true);
         
         $data = D('Users')->updateInfo($this->params);
         $this->jsonReturn($data);
@@ -72,6 +72,22 @@ class UserController extends CommonController {
     }
     
     /**
+     * 自动登录
+     * 
+     * @author kezhen.yi                  
+     * @date 2016年2月28日 下午12:48:53        
+     *
+     */
+    public function autoLogin(){
+        //检查参数
+//      $this->checkParam('invalid_token',true);
+//      $this->checkParam('password',true);
+        
+        $data = D('Users')->autoLogin($this->params);
+        $this->jsonReturn($data);
+    }
+    
+    /**
      * 获取用户基本信息
      * 
      * @author kezhen.yi                  
@@ -87,24 +103,24 @@ class UserController extends CommonController {
         
     }
     
-    /**
-     * 更新用户位置
-     * 
-     */
-    public function updatepos(){
-        //检查参数
-        $this->checkParam('user_id',true);
-        $this->checkParam('map_id',true);
-        $this->checkParam('location',true);
-        
-        $position=$this->params['location'];
-        $location = $position['longitude'].','.$position['latitude'];
-        
-        $param = array('_id'=>$this->params['map_id'],'_name'=>$this->params['nickname'],'_location'=>$location);
-        
-        $data = D('AMapApi')->updateUser($param);
-        $this->jsonReturn($data);
-        
-    }
+//  /**
+//   * 更新用户位置
+//   * 
+//   */
+//  public function updatepos(){
+//      //检查参数
+//      $this->checkParam('user_id',true);
+//      $this->checkParam('map_id',true);
+//      $this->checkParam('location',true);
+//      
+//      $position=$this->params['location'];
+//      $location = $position['longitude'].','.$position['latitude'];
+//      
+//      $param = array('_id'=>$this->params['map_id'],'_name'=>$this->params['nickname'],'_location'=>$location);
+//      
+//      $data = D('AMapApi')->updateUser($param);
+//      $this->jsonReturn($data);
+//      
+//  }
    
 }

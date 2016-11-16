@@ -35,14 +35,13 @@ class CommonController extends Controller
         $content = file_get_contents("php://input");
         $content = $this->analyJson($content);
         
-        //$content = $_POST;
-        //exit($content);
-        //$this->success($content);
-        
+          //$content = $_POST;
+          //$this->success($content);
+      
         //判断请求参数是否为json格式
-        if(!$content){
+        /*if(!$content){
             $this->error(1002, '参数格式错误');
-        }
+        }*/
         
         //获POST参数
         $this->params = $content;
@@ -55,15 +54,22 @@ class CommonController extends Controller
      * @return type
      */
     public function analyJson($json_str) {
-        $json_str = str_replace('\\', '', $json_str);
-        $out_arr = array();
+//      $json_str = str_replace('\\', '', $json_str);
+////      \Think\Log::record('API：'.$json_str);
+//      $out_arr = array();
+//      preg_match('/{.*}/', $json_str, $out_arr);
+//      if (!empty($out_arr)) {
+//          $result = json_decode($out_arr[0], TRUE);
+//      } else {
+//          return FALSE;
+//      }
+//      return $result;
+		$json_str = str_replace('\\', '', $json_str);
+		$out_arr = array();
         preg_match('/{.*}/', $json_str, $out_arr);
-        if (!empty($out_arr)) {
-            $result = json_decode($out_arr[0], TRUE);
-        } else {
-            return FALSE;
-        }
-        return $result;
+		$result = json_decode($out_arr[0], TRUE);
+		
+		return $result;
     }
     
     /**
