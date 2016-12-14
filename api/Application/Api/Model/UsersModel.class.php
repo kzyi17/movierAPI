@@ -302,9 +302,19 @@ class UsersModel extends Model{
     private function _getUserInfo($userID){
         if(!$userID)
             return null;
-        return $this->field('userid,nickname,mobile,sex,usericon,start,map_id,job,province_id,city_id,area_id,last_login')
-        			->where(array('userid'=>$userID))
+        $userInfo = $this->field(array('u.userid','u.nickname','u.mobile','u.usericon','u.sex','u.start','u.map_id','u.last_login','u.province_id','u.city_id','u.area_id',
+        						'p.area_name'=>'province_name','c.area_name'=>'city_name','a.area_name'=>'area_name',
+        						'u.job'=>'job_id',
+        						'f.filter_name'=>'job'))
+        			->alias('u')
+        			->join('areas as p on p.area_id = u.province_id','LEFT')
+        			->join('areas as c on c.area_id = u.city_id','LEFT')
+        			->join('areas as a on a.area_id = u.area_id','LEFT')
+        			->join('filter as f on f.filter_id = u.job','LEFT')
+        			->where(array('u.userid'=>$userID))
         			->find();
+        $userInfo['usericon'] = C('WEB_STATICS').$userInfo['usericon'];		
+        return $userInfo;			
     }
     
     /**

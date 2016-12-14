@@ -9,7 +9,7 @@ return array(
     'AUTHTOKEN'             => 'mywork99.com',
     //'URL_404_REDIRECT'      =>  '404.html', // 404 跳转页面 部署模式有效
     //'ERROR_PAGE'            =>  '/Public/error.html',
-    'WEB_STATICS'               =>  'http://172.20.10.2/movier/statics',
+    'WEB_STATICS'               =>  $_SERVER["REQUEST_SCHEME"].'://'.$_SERVER["SERVER_NAME"].'/mres/',//'http://172.20.10.2/movier/statics',
     
     
     
