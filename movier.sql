@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2016-11-17 03:13:26
+Date: 2016-12-14 23:44:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -3543,6 +3543,53 @@ INSERT INTO `areas` VALUES ('441904', '441900', '东城区', '99');
 INSERT INTO `areas` VALUES ('659004', '659000', '五家渠市', '99');
 
 -- ----------------------------
+-- Table structure for calendar
+-- ----------------------------
+DROP TABLE IF EXISTS `calendar`;
+CREATE TABLE `calendar` (
+  `calendar_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '档期ID',
+  `userid` varchar(60) DEFAULT NULL COMMENT '用户ID',
+  `cdate` date DEFAULT NULL COMMENT '日期',
+  `ctime` varchar(30) DEFAULT NULL COMMENT '时间段',
+  PRIMARY KEY (`calendar_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of calendar
+-- ----------------------------
+INSERT INTO `calendar` VALUES ('1', null, '2016-11-27', null);
+
+-- ----------------------------
+-- Table structure for calendar_time
+-- ----------------------------
+DROP TABLE IF EXISTS `calendar_time`;
+CREATE TABLE `calendar_time` (
+  `id` smallint(3) unsigned NOT NULL,
+  `ctime` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of calendar_time
+-- ----------------------------
+INSERT INTO `calendar_time` VALUES ('1', '9:00');
+INSERT INTO `calendar_time` VALUES ('2', '10:00');
+INSERT INTO `calendar_time` VALUES ('3', '11:00');
+INSERT INTO `calendar_time` VALUES ('4', '12:00');
+INSERT INTO `calendar_time` VALUES ('5', '13:00');
+INSERT INTO `calendar_time` VALUES ('6', '14:00');
+INSERT INTO `calendar_time` VALUES ('7', '15:00');
+INSERT INTO `calendar_time` VALUES ('8', '16:00');
+INSERT INTO `calendar_time` VALUES ('9', '17:00');
+INSERT INTO `calendar_time` VALUES ('10', '18:00');
+INSERT INTO `calendar_time` VALUES ('11', '19:00');
+INSERT INTO `calendar_time` VALUES ('12', '20:00');
+INSERT INTO `calendar_time` VALUES ('13', '21:00');
+INSERT INTO `calendar_time` VALUES ('14', '22:00');
+INSERT INTO `calendar_time` VALUES ('15', '23:00');
+INSERT INTO `calendar_time` VALUES ('16', '24:00');
+
+-- ----------------------------
 -- Table structure for comment
 -- ----------------------------
 DROP TABLE IF EXISTS `comment`;
@@ -3629,10 +3676,12 @@ INSERT INTO `invalid_token` VALUES ('582b302d37bfc', '48af8cc394d4336942735a33b7
 INSERT INTO `invalid_token` VALUES ('582b30dcd97b2', 'b33ef73265d8ca97afe22a2e5f88a27d63d294b5', '1479225566', '192.168.1.7', null);
 INSERT INTO `invalid_token` VALUES ('582b31ca2eb33', '3beb8d815e58d78135d149b2125b671e33caa063', '1479225802', '192.168.1.7', null);
 INSERT INTO `invalid_token` VALUES ('582b337173c1b', '4c1f3a837e6c57f45c8797a9bebb2cc8dc5b2a9b', '1479226472', '192.168.1.7', null);
+INSERT INTO `invalid_token` VALUES ('5831f8967dbc0', '2b1792d3eafdd022aa1015ab5e2ca0fc0fb8abc4', '1479669910', '192.168.1.8', null);
+INSERT INTO `invalid_token` VALUES ('58320abeda74d', 'f4eb8f93b65fe183ff802f1b5ba87ac1188e5cea', '1480487406', '192.168.1.8', null);
 INSERT INTO `invalid_token` VALUES ('bEpyBmLqJUL6pWbormZGlyTUd0pIp2', 'c5d6946ef8dce768e5417933e0a97602ea45bbc7', '1478619219', '192.168.1.5', null);
 INSERT INTO `invalid_token` VALUES ('IBG5QBGNm9uTsB6LW9Wjm967uX0FUR', '886b50b7b2f825d230b1d22bad4fc96feb2bdbae', '1478632560', '192.168.1.5', null);
 INSERT INTO `invalid_token` VALUES ('Yj6fEN6PY1U3itKD6TOjQ1kj4VAZE9', '4a50173e1fbf3708b1e0a79af9a13b90902b5d58', '1479116977', '192.168.1.7', null);
-INSERT INTO `invalid_token` VALUES ('ZiR8toZQzoRsFOnUlS7ctC9GFWrEh6', '8b6e54f7925df1af7c35b68cb20ca3ec2828fca9', '1479321517', '192.168.1.7', null);
+INSERT INTO `invalid_token` VALUES ('ZiR8toZQzoRsFOnUlS7ctC9GFWrEh6', '4a6cdc8c87dc0bc71395f66999963ab57e733794', '1479747580', '192.168.1.7', null);
 
 -- ----------------------------
 -- Table structure for photos
@@ -3720,8 +3769,8 @@ CREATE TABLE `smscode` (
 -- ----------------------------
 -- Records of smscode
 -- ----------------------------
-INSERT INTO `smscode` VALUES ('7', '18578623828', '3656', '1472419541', 'common');
-INSERT INTO `smscode` VALUES ('8', '18620081053', '6301', '1479321236', 'common');
+INSERT INTO `smscode` VALUES ('7', '18578623828', '8905', '1479674540', 'common');
+INSERT INTO `smscode` VALUES ('8', '18620081053', '0305', '1479538668', 'common');
 INSERT INTO `smscode` VALUES ('9', '18620081059', '1432', '1476862291', 'common');
 INSERT INTO `smscode` VALUES ('10', '18620081055', '5298', '1476862496', 'common');
 INSERT INTO `smscode` VALUES ('11', '18620081056', '3450', '1476862712', 'common');
@@ -3758,7 +3807,8 @@ CREATE TABLE `users` (
 -- Records of users
 -- ----------------------------
 INSERT INTO `users` VALUES ('582b337173c1b', '18620081059', 'f91e3860c33f824ae5d63f87f6a11e289d28e781', '木可', '18620081059', '1479226225', '1', '1479260107', '192.168.1.7', '0.00', '1', '3', '440000', '440100', '440111', 'usericon/20161116/582b344411979.jpeg', '0', '48', '1479226436');
+INSERT INTO `users` VALUES ('58320abeda74d', '18578623828', '1f257858e0990daca956d3bcad33290066e86b7e', '木乐', '18578623828', '1479674558', '1', '1480487406', '192.168.1.8', '0.00', '1', '4', '440000', '440100', '440105', 'usericon/20161123/58354b1a5de66.jpeg', '0', '52', '1479887642');
 INSERT INTO `users` VALUES ('bEpyBmLqJUL6pWbormZGlyTUd0pIp2', '18620081054', 'fbed47f96cbb97ae58993713a8ea5e32ea821e99', null, '18620081054', '1478600802', '1', '1478619219', '192.168.1.5', '0.00', '0', null, null, null, null, null, '0', '35', '0');
 INSERT INTO `users` VALUES ('IBG5QBGNm9uTsB6LW9Wjm967uX0FUR', '18620081058', '19f18adf10467f4a27a20227f66d0a5d86c3acc0', null, '18620081058', '1478632560', '1', '1478632560', '192.168.1.5', '0.00', '0', null, null, null, null, null, '0', '37', '0');
 INSERT INTO `users` VALUES ('Yj6fEN6PY1U3itKD6TOjQ1kj4VAZE9', '18620081052', 'a94a04d48d8b1f618906755c42256a14e7c8bdb4', '高帅富', '18620081052', '1479049797', '1', '1479116977', '192.168.1.7', '0.00', '1', null, null, null, null, null, '0', '44', '1479201526');
-INSERT INTO `users` VALUES ('ZiR8toZQzoRsFOnUlS7ctC9GFWrEh6', '木可', '06c0cfd84d74ef56a412777b05518217fb33e879', '哈哈哈', '18620081053', '1478617844', '1', '1479321517', '192.168.1.7', '0.00', '1', '6', '440000', '440100', '440111', 'usericon/20161115/582b2d2108ce1.jpeg', '0', '43', '1479321482');
+INSERT INTO `users` VALUES ('ZiR8toZQzoRsFOnUlS7ctC9GFWrEh6', '木可', '1f257858e0990daca956d3bcad33290066e86b7e', '哈哈哈', '18620081053', '1478617844', '1', '1479999501', '192.168.1.7', '0.00', '1', '6', '440000', '440100', '440111', 'usericon/20161115/582b2d2108ce1.jpeg', '0', '50', '1479538691');
